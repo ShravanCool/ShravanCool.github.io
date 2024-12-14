@@ -25,8 +25,7 @@ type SocialLink = {
 }
 
 export const SUPPORTED_LANGUAGES = {
-  'en': 'en',
-  'es': 'es'
+  'en': 'en'
 };
 
 export const DEFAULT_LANG = SUPPORTED_LANGUAGES.en as SupportedLanguage;
@@ -36,7 +35,7 @@ export const siteConfig: Config = {
   description: ui[DEFAULT_LANG]["site.description"].text,
   lang: DEFAULT_LANG,
   profile: {
-    author: "Amy Dang",
+    author: "Shravan A J",
     description: ui[DEFAULT_LANG]["profile.description"].text
   },
   settings: {
@@ -53,17 +52,17 @@ export const SOCIAL_LINKS: Array<SocialLink> = [
   {
     icon: "mdi:github",
     friendlyName: "Github",
-    link: "https://github.com/kirontoo/astro-theme-cody",
+    link: "https://github.com/ShravanCool",
   },
   {
     icon: "mdi:linkedin",
     friendlyName: "LinkedIn",
-    link: "#",
+    link: "https://www.linkedin.com/in/shravan-a-j/",
   },
   {
     icon: "mdi:email",
     friendlyName: "email",
-    link: "mailto:ndangamy@gmail.com",
+    link: "mailto:shravan.akku@gmail.com",
   },
   {
     icon: "mdi:rss",
