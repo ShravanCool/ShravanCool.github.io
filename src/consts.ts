@@ -63,12 +63,12 @@ export const SOCIAL_LINKS: Array<SocialLink> = [
     icon: "mdi:email",
     friendlyName: "email",
     link: "mailto:shravan.akku@gmail.com",
-  },
-  {
-    icon: "mdi:rss",
-    friendlyName: "rss",
-    link: "/rss.xml"
   }
+  //{
+  //  icon: "mdi:rss",
+  //  friendlyName: "rss",
+  //  link: "/rss.xml"
+  //}
 ];
 
 // NOTE: match these entries with keys in `src/i18n/nav.ts`
