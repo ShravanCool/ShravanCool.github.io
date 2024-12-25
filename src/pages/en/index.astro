@@ -16,36 +16,26 @@ const allPostsByDate = sortMDByDate(allPosts);
 const allPostsByPinned = sortMDByPinned(allPostsByDate);
 const filteredPostsByLanguage = filterByLanguage(allPostsByPinned, "en").slice(0, MAX_POSTS);
 
-const tech: Array<{ title: string; desc: string; href: string }> = [
+const tech: Array<{ title: string; val: string }> = [
 	{
-		title: "Astro",
-		desc: "Build fast websites, faster.",
-		href: "https://astro.build",
+		title: "Back-end",
+		val: "Python, Django, Flask, RabbitMQ, Redis."
 	},
 	{
-		title: "Astro Assets",
-		desc: "Built-in optimized asset support.",
-		href: "https://docs.astro.build/en/guides/assets/",
+		title: "Databases and search",
+		val: "PostgreSQL, MySQL, SQLite, ElasticSearch."
 	},
 	{
-		title: "Tailwind CSS",
-		desc: "Rapidly build modern websites without ever leaving your HTML.",
-		href: "https://tailwindcss.com",
+		title: "DevOps",
+		val: "AWS, Linux, Docker, Terraform."
 	},
 	{
-		title: "Markdown",
-		desc: "Simple and easy-to-use markup language.",
-		href: "https://www.markdownguide.org/",
+		title: "Other Languages",
+		val: "C, C++, Java, Javascript, Lua."
 	},
 	{
-		title: "MDX",
-		desc: "Markdown for the component era.",
-		href: "https://mdxjs.com/",
-	},
-	{
-		title: "Astro Icon",
-		desc: "An easy to use Icon component for Astro.",
-		href: "https://github.com/natemoo-re/astro-icon#readme",
+		title: "Miscellaneous tools",
+		val: "Git, Bash, Markdown."
 	},
 ];
 ---
@@ -84,17 +74,12 @@ const tech: Array<{ title: string; desc: string; href: string }> = [
 		<h2 class="title">Technologies</h2>
 		<ul class="space-y-4 sm:space-y-2">
 			{
-				tech.map(({ href, title, desc }) => (
+				tech.map(({ title, val }) => (
 					<li>
-						<a
-							href={href}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="cody-link inline-block"
-						>
+						<span class="font-bold">
 							{title}
-						</a>
-						: <p class="inline-block sm:mt-2">{desc}</p>
+						</span>
+						: <p class="inline-block sm:mt-2">{val}</p>
 					</li>
 				))
 			}
