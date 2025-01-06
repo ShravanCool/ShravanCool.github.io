@@ -1,7 +1,7 @@
 ---
 title: 'Image De-hazing and Fog removal'
 description: 'A simple image retrieval project from foggy and hazy images by using the methods of Dark Channel Prior and Colour Attenuation Prior.'
-pubDate: 'Apr 03 2023'
+pubDate: 'Mar 30 2020'
 heroImage:
     url: '/image-main.jpeg'
     alt: 'GitHub wallpaper'

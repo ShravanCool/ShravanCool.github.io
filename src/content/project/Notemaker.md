@@ -1,13 +1,14 @@
 ---
 title: 'Notemaker'
 description: 'A simple note-taking application, which students can use to take notes, and arrange them according to their course, term, year etc. The application uses a markdown editor for making the notes, and also comes with a web-browsable API.'
-pubDate: 'Aug 13 2022'
+pubDate: 'Oct 30 2020'
 heroImage:
     url: '/notemaker-main.jpg'
     alt: 'GitHub wallpaper'
 platform: Web
 stack: ['Python', 'Django', 'HTML', 'JS']
 github: https://github.com/ShravanCool/Notemaker
+order: 1
 ---
 
 Notemaker is a note-taking web application, using which students can efficiently take notes, access them, categorize them to proper courses, terms, years, and schools.

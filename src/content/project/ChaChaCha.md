@@ -1,7 +1,7 @@
 ---
 title: 'ChaChaCha'
 description: 'Simple CLI tool which uses ChaCha20 algorithm for encryption and Decryption of image and text files.'
-pubDate: 'Jun 08 2003'
+pubDate: 'May 30 2021'
 heroImage:
     url: '/chachacha-main.png'
     alt: 'GitHub wallpaper'

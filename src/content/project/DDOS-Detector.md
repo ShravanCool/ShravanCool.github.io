@@ -1,7 +1,7 @@
 ---
 title: 'DDoS Detector'
 description: 'Classification and prediction of DDoS attacks using Machine Learning techniques. Using a web-based interface, the model gets its input from the user, and predicts whether the given inputs match that of a DDoS attack, or is beningn traffic.'
-pubDate: 'Mar 03 2023'
+pubDate: 'Feb 28 2020'
 heroImage:
     url: '/ddos-main.jpg'
     alt: 'GitHub wallpaper'

@@ -15,7 +15,7 @@ export default {
             text: "A minimalist blog theme built with Astro. A quick and easy starter build for anyone who wants to start their own blog."
         },
         "profile.description": {
-            text: "your bio description"
+            text: "Software Engineer | VIT-Vellore | Backend Developer"
         },
         "blog.lastUpdated": {
             text: "Last updated:"
