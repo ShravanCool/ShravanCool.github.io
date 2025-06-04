@@ -1,6 +1,8 @@
 ---
 import { getLangFromUrl, useNavTranslations } from "@/utils";
 import { NAV_LINKS, siteConfig } from "../consts.ts";
+import type { NavEntry } from "@/i18n/nav";
+
 const year = new Date().getFullYear();
 const lang = getLangFromUrl(Astro.url);
 const t = useNavTranslations(lang);
