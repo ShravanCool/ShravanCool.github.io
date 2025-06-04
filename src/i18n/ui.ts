@@ -12,7 +12,7 @@ export default {
             text: "Shravan A J"
         },
         "site.description": {
-            text: "A minimalist blog theme built with Astro. A quick and easy starter build for anyone who wants to start their own blog."
+            text: "Shravan's portfolio website."
         },
         "profile.description": {
             text: "Software Engineer | VIT-Vellore | Backend Developer"
