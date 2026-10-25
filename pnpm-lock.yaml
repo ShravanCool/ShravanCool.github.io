@@ -42,6 +42,9 @@ importers:
         specifier: ^5.3.3
         version: 5.8.3
     devDependencies:
+      '@iconify-json/boxicons':
+        specifier: ^1.2.0
+        version: 1.2.0
       '@tailwindcss/typography':
         specifier: ^0.5.10
         version: 0.5.16(tailwindcss@3.4.17)
@@ -363,6 +366,12 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
+
+  '@iconify-json/boxicons@1.2.0':
+    resolution: {integrity: sha512-yAfCVaiZ5t2bC1xNVEdkWUI94e3u15IrytO2XFh8/7Y45M1i51adQpi42OhH2pUdsYM0/KY4Gklrb+XB+oZS/w==}
+
+  '@iconify/types@2.0.0':
+    resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -2839,6 +2848,12 @@ snapshots:
 
   '@esbuild/win32-x64@0.21.5':
     optional: true
+
+  '@iconify-json/boxicons@1.2.0':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify/types@2.0.0': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
