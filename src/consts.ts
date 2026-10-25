@@ -63,7 +63,13 @@ export const SOCIAL_LINKS: Array<SocialLink> = [
     icon: "mdi:email",
     friendlyName: "email",
     link: "mailto:shravan.akku@gmail.com",
+  },
+  {
+    icon: "custom:bluesky",
+    friendlyName: "bluesky",
+    link: "https://bsky.app/profile/shravan-a-j.bsky.social",
   }
+
   //{
   //  icon: "mdi:rss",
   //  friendlyName: "rss",
