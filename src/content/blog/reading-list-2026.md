@@ -7,7 +7,8 @@ tags: ["reading"]
 
 ## Currently Reading
 
-- [Sapiens](https://www.ynharari.com/book/sapiens/) by *Yuval Noah Harari*
+- [More Everything Forever: AI Overlords, Space Empires, and Silicon Valley's Crusade to Control the Fate of Humanity](https://www.amazon.in/More-Everything-Forever-Overlords-Humanity/dp/1541619595) by *Adam Becker*
+- [Sapiens: A Brief History of Humankind](https://www.ynharari.com/book/sapiens/) by *Yuval Noah Harari*
 
 ## Completed Reading
 
