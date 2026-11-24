@@ -7,11 +7,11 @@ tags: ["reading"]
 
 ## Currently Reading
 
-- [More Everything Forever: AI Overlords, Space Empires, and Silicon Valley's Crusade to Control the Fate of Humanity](https://www.amazon.in/More-Everything-Forever-Overlords-Humanity/dp/1541619595) by *Adam Becker*
 - [Sapiens: A Brief History of Humankind](https://www.ynharari.com/book/sapiens/) by *Yuval Noah Harari*
 
 ## Completed Reading
 
+- [More Everything Forever: AI Overlords, Space Empires, and Silicon Valley's Crusade to Control the Fate of Humanity](https://www.amazon.in/More-Everything-Forever-Overlords-Humanity/dp/1541619595) by *Adam Becker*
 - [The Accidental Billionaires](https://en.wikipedia.org/wiki/The_Accidental_Billionaires) by *Ben Mezrich*
 - [Ten Arguments for Deleting Your Social Media Accounts Right Now](https://www.amazon.in/Arguments-Deleting-Social-Accounts-International/dp/125019668X) by *Jaron Lanier*
 - [Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism](https://en.wikipedia.org/wiki/Careless_People) by *Sarah Wynn-Williams*
